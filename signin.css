@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outer-box {
+    height: 100vh;
+    width: 100vw;
+}
+
+.iner-box {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.signin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.signin-header a {
+     font-size: 0.8rem;
+     color: #48c874;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.signin-body label {
+    display: block;
+    margin: 7px 0;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.signin-body input {
+    padding: 10px;
+    margin-bottom: 3px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.form-para {
+    text-align: end;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.form-para a {
+    color: #555;
+    text-decoration-line: none;
+}
+
+.form-para a:hover {
+      color: #48c874;
+}
+
+#button-4 {
+    background: #48c874;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+#button-4:hover {
+    background-color: transparent;
+    color: #48c874;
+    border: 1px solid #48c874;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.button-f {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+}
+
+#button-5 {
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    padding: 11px 19px;
+    width: 100%;
+    border-radius: 50px;
+    border-width: 0.2px;
+    line-height: 20px;
+}
+
+#button-6 {
+    border: 1px solid #000000;
+    padding: 11px 19px;
+    width: 100%;
+    border-radius: 50px;
+    border-width: 0.2px;
+    line-height: 20px;
+}
+
+.button-f a {
+    text-decoration-line: none;
+    color: black;
+}
+

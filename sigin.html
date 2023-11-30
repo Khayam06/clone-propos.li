@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="iner-box">
+            <header>
+                <div class="signin-header">
+                    <h1>Sign In</h1>
+                    <a href="index.html">I don't have any Account</a>
+                </div>
+               <p>Welcome back! you have been missed!</p>
+            </header>
+
+            <main class="signin-body">
+                <form action="post">
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password must be at least 8 character" required>
+                    </p>
+                    <div class="form-para">
+                        <p><a href="forgot.html">Forgot Password?</a></p>
+                    </div>
+                    <p>
+                        <input type="submit" id="button-4" value="Sign In">
+                    </p>
+                </form>
+            </main>
+
+            <footer class="sigin-footer">
+                <button class="button-f" id="button-5"><img src="Images/fb.png" alt="Fb logo" height="20"><a href="https://www.facebook.com">Continue with Facebook</a></button>
+                <button class="button-f" id="button-6"><img src="Images/google.png" alt="Google logo" height="20"><a href="https://www.google.com">Continue with Google</a></button>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
