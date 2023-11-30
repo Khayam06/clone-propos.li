@@ -81,7 +81,7 @@ body {
 }
 
 .signup-p input {
-   border: 2px solid #000000;
+   border: 1px solid black;
    border-radius: 5px;
    border-width: 0.1px;
    padding: 10px;
